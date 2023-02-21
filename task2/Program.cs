@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int a, b;
+Console.Write("a = ");a =
+Convert.ToInt32(Console.ReadLine());
+Console.Write("b = ");b = 
+Convert.ToInt32(Console.ReadLine());
+Console.Write("max = ");
+if (a > b) Console.Write($"{a}");
+else Console.Write($"{b}");
